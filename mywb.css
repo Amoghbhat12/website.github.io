@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('wall.jpg');
+    width: 100%;
+}
+.A, .B, .C,.D {
+    font-size: larger;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+}
+header {
+    background-color: rgb(18, 43, 78);
+    text-align: center;
+    padding: 30px;
+}
+header h1 {
+    margin: 0;
+}
+nav {
+    margin-top: 20px;
+}
+bas {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px ;
+    font-size: larger;
+    background-color: #f5f5f5;
+}
+bas pre {
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
+product1 {
+width: 33%;
+float: left;
+font-size: larger;
+border: 1px solid  #0056b3 ;
+margin: 2px;
+
+}
+
+product2 {
+    width: 33%;
+    float: left;
+    font-size:larger;
+    border: 1px solid  #0056b3 ;
+    margin: 2px;
+
+    }
+product3 {
+        width: 32%;
+        float: right;
+        font-size:larger;
+        border: 1px solid  #0056b3 ;
+        margin: 2px;
+
+        }
+            
+button {
+    background-color: rgb(35, 0, 176);
+    color: #f7f5f5;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 6px ;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+b {
+  color: rgb(36, 1, 88);
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px ;
+  font-size: larger;
+}    
+footer {
+display: block;
+clear: both;
+background-color: rgba(182, 187, 212, 0.29);
+text-align: center;
+padding: 5px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Buyout</title>
+    <link rel="icon" type="image/jpeg" href="jesse.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buyout.css">
+</head>
+
+<body>
+    <label for="payment">Type</label>
+    <select id="payment">
+        <option value="1">White Crystals</option>
+        <option value="2">Blue pure Crystals</option>
+        <option value="3">Powdered</option>
+    </select><br>
+    <div class="counter">
+        <button id="decrement">-</button>
+        <span id="count">0</span>
+        <button id="increment">+</button><br>
+        <a>Ounces</a>
+    </div>
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
+<script>
+    const decrementButton = document.getElementById('decrement');
+    const incrementButton = document.getElementById('increment');
+    const countElement = document.getElementById('count');
+
+    let count = 1;
+
+    decrementButton.addEventListener('click', () => {
+        if (count > 0) {
+            count--;
+            updateCountDisplay();
+        }
+    });
+
+    incrementButton.addEventListener('click', () => {
+        count++;
+        updateCountDisplay();
+    });
+
+    function updateCountDisplay() {
+        countElement.textContent = count;
+    }
+</script>
